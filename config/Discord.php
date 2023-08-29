@@ -1,46 +1,35 @@
 <?php
     return [
-        'geun' => [
-            'id' => '1143008129945194586',
-            'secret' => 'WySOD1OH2ZipegChvYAHWNDhDMjrZQ1z',
-            'token' => 'MTE0MzAwODEyOTk0NTE5NDU4Ng.G35bE0.8y9PjGoO51DRtTsywQCBdtyKvLy9256xqcTyJo',
-            'channel_id' => '1131138994483253328',
-        ],
-        'eun' => [
-            'id' => '1144429146416615484',
-            'secret' => 'QTNvNQ-OYKs8tCVmvEf89HbRlCmnVn1F',
-            'token' => 'MTE0NDQyOTE0NjQxNjYxNTQ4NA.G8ZCRy.SV6voIsF-sK1ukBcqCGVXsmpE-e8kqm4rPP7EM',
-            'channel_id' => '1131138994483253328',
-        ],
+        
         'jinju' => [
-            'id' => '1144429773922250812',
-            'secret' => 'stwbGaKOLBuK047UyB42-4B4v65ffjJ9',
-            'token' => 'MTE0NDQyOTc3MzkyMjI1MDgxMg.GaYXA1.SXQwF_swxwXgPIUAffLKzHvBk1dTf-YeQGDE5Y',
-            'channel_id' => '1144502673719173212',
+            'id' => '',
+            'secret' => '',
+            'token' => '',
+            'channel_id' => '',
         ],
         'error' => [
-            'id' => '1144433512997458060',
-            'secret' => 'QTNvNQ-OYKs8tCVmvEf89HbRlCmnVn1F',
-            'token' => 'MTE0NDQzMzUxMjk5NzQ1ODA2MA.G_swwq.SHX_jvnmpP3F8BsjrrSGYOWuWo1LS7MSCeeeHc',
-            'channel_id' => '1144502129491443784',
+            'id' => '',
+            'secret' => '',
+            'token' => '',
+            'channel_id' => '',
         ],
         'template' => [
-            "content" => "<@&1144457350615404564>",
-            "username" => "딜런",
+            "content" => "<@@>",
+            "username" => "",
             "tts" => false,
             "embeds" => [
                 [
                     // Embed Title
-                    "title" => "딜런",
+                    "title" => "",
 
                     // Embed Type
                     "type" => "rich",
 
                     // Embed Description
-                    "description" => "딜런 테스트",
+                    "description" => "테스트",
 
                     // URL of title link
-                    "url" => "https://dealrun.co.kr",
+                    "url" => "",
 
                     // Timestamp of embed must be formatted as ISO8601
                     "timestamp" => date("c", strtotime("now")),
@@ -50,24 +39,24 @@
 
                     // Footer
                     "footer" => [
-                        "text" => "딜런",
-                        "icon_url" => "https://dealrun.co.kr/img/dealrun_logo.png"
+                        "text" => "",
+                        "icon_url" => "/img/dealrun_logo.png"
                     ],
 
                     // Image to send
                     "image" => [
-                        "url" => "https://dealrun.co.kr/img/dealrun_logo.png"
+                        "url" => "/img/dealrun_logo.png"
                     ],
 
                     // Thumbnail
                     "thumbnail" => [
-                       "url" => "https://dealrun.co.kr/img/dealrun.png"
+                       "url" => "/img/dealrun.png"
                     ],
 
                     // Author
                     "author" => [
-                        "name" => "딜런",
-                        "url" => "https://dealrun.co.kr/"
+                        "name" => "",
+                        "url" => "/"
                     ],
 
                     // // Additional Fields array
